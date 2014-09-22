@@ -9,6 +9,6 @@ app.get("*",function (req,res){
 
 });
 
-var server = app.lsten(process.env.port || 8088,function() {
+var server = app.listen(process.env.port || 8088,function() {
 	console.log("listening on port %d", server.address().port);
 });
