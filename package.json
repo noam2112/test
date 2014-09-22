@@ -6,7 +6,9 @@
   "dependencies": {
     "express": "~4.9.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
   "scripts": {
     "test": "boo"
   },
